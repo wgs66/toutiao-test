@@ -6,6 +6,7 @@
     <div>
       <i class="toutiao toutiao-shipin"></i>
     </div>
+    <div class="box"></div>
   </div>
 </template>
 
@@ -15,4 +16,10 @@ export default {
 }
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: pink;
+}
+</style>
